@@ -27,15 +27,15 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Builds.loader.js";
+      var loaderUrl = buildUrl + "/Transport-Madness-Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Builds.data.unityweb",
-        frameworkUrl: buildUrl + "/Builds.framework.js.unityweb",
-        codeUrl: buildUrl + "/Builds.wasm.unityweb",
+        dataUrl: buildUrl + "/Transport-Madness-Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Transport-Madness-Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Transport-Madness-Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CakeMuffinCo",
         productName: "Transport Madness",
-        productVersion: "0.1",
+        productVersion: "1.4",
       };
 
       var container = document.querySelector("#unity-container");
@@ -65,7 +65,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/Builds.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Transport-Madness-Build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
